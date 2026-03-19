@@ -1,16 +1,6 @@
 -- CS4400: Introduction to Database Systems (Fall 2024)
--- Phase II: Create Table & Insert Statements [v0] Monday, September 15, 2024 @ 17:00 EST
-
--- Team 76
--- Anson Goo (agoo3)
--- Thanh Ngo (tngo70)
--- Tony Kang (tkang67)
-
--- Directions:
--- Please follow all instructions for Phase II as listed on Canvas.
--- Fill in the team number and names and GT usernames for all members above.
--- Create Table statements must be manually written, not taken from an SQL Dump file.
--- This file must run without error for credit.
+-- Phase II: Create Table & Insert Statements
+-- Monday, September 15, 2024
 
 /* This is a standard preamble for most of our scripts.  The intent is to establish
 a consistent environment for the database behavior. */
@@ -25,11 +15,6 @@ create database if not exists business_supply;
 use business_supply;
 
 -- Define the database structures
-/* You must enter your tables definitions, along with your primary, unique and foreign key
-declarations, and data insertion statements here.  You may sequence them in any order that
-works for you.  When executed, your statements must create a functional database that contains
-all of the data, and supports as many of the constraints as reasonably possible. */
-
 DROP DATABASE IF EXISTS business_supply;
 CREATE DATABASE IF NOT EXISTS business_supply;
 USE business_supply;
